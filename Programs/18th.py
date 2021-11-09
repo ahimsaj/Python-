@@ -7,3 +7,4 @@ while(n>0):
     i=i+dig
     n=n//10
 print("The total sum of digits is:",i)
+
