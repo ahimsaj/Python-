@@ -1,3 +1,5 @@
+#Program to find the digital product of a given number
+ 
 n=int(input("Enter a number:"))
 i=0
 while(n>0):
