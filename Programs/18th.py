@@ -1,10 +1,10 @@
 #Program to find digital sum of a given Number
 
 n=int(input("Enter a number:"))
-i=0
+s=0
 while(n>0):
-    dig=n%10
-    i=i+dig
+    r=n%10
+    s=s*10+r
     n=n//10
-print("The total sum of digits is:",i)
+print("The total sum of digits is:",s)
 
